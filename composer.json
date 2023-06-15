@@ -47,6 +47,7 @@
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force",
+            "@php artisan filament:upgrade",
             "@php artisan optimize:clear"
         ],
         "post-root-package-install": [
