@@ -21,7 +21,8 @@
     @stack('scripts')
 </head>
 
-<body class="antialiased">
+<body
+    class="antialiased h-full w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100">
     {{ $slot }}
 
     @livewire('notifications')
